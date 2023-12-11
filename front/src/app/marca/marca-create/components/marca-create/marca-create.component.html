@@ -1,0 +1,12 @@
+<form (ngSubmit)="save()">
+  <h2>Cadastro de Marca</h2>
+  <div>
+    <label for="sigla">Sigla</label>
+    <input id="sigla" name="sigla" [(ngModel)]="sigla" type="text" />
+  </div>
+  <div>
+    <label for="descricao">Descricao</label>
+    <input id="descricao" name="descricao" [(ngModel)]="descricao" type="text" />
+  </div>
+  <button>Salvar</button>
+</form>
